@@ -1,0 +1,37 @@
+First go on https://github.com/
+i) make an account
+ii) create new repository and select the below option of initializing with readme file.
+
+lets say username: codeht1   //use your username
+let say name of new repository: test         //name of new repo
+
+
+
+1.Installation: apt-get install git
+
+2.config git run 2 commands:
+i):git config --global user.name "codeht1"
+ii):git config --global user.email "praveenyadav1193@yahoo.com"
+
+2.Go to the folder in terminal whose content you want to push on the github
+and run: git init
+
+or 
+if u want to make a new folder
+:mkdir sample
+:cd sample/
+and then run:git init
+
+3.Now create a remote(specify url where you want to push code), means any time you want to push the code you can refer it via this remote.
+run: git remote add anyname https://github.com/codeht1/test.git                 //put name of remote at place of anyname
+
+4. To check the newly created remote
+run: git remote -v
+
+5. Now enter content in that folder.
+
+5. Now first add the new content using: git add .
+
+6. Now make a snapshot using commit: git commit -m "Initial commit message"
+
+7.https://github.com/codeht1/test.git
